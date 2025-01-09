@@ -1,0 +1,12 @@
+let point = {
+    x : 0,
+    y : 0,
+    moveHorizontally : function(distance){
+        this.y = this.y + distance;
+    }
+
+}
+
+console.log(point.x);
+point.moveHorizontally(30);
+console.log(point.y);
